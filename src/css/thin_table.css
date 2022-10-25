@@ -1,0 +1,47 @@
+div.thin_table {
+	/* @apply w-full; */
+	@apply font-thin;
+	font-size: 0.9rem;
+	@apply select-none;
+}
+
+div.thin_table div.table_row {
+	@apply flex;
+	@apply flex-row;
+	@apply h-10;
+	@apply leading-10;
+}
+
+div.thin_table div.table_row:nth-child(2n){
+	@apply bg-pink-200;
+}
+
+div.thin_table div.table_row:nth-child(2n):hover {
+	@apply bg-pink-300;
+}
+
+div.thin_table div.table_row:nth-child(2n+1){
+	@apply bg-blue-200;
+}
+
+div.thin_table div.table_row:nth-child(2n+1):hover{
+	@apply bg-blue-300;
+}
+
+div.thin_table div > p {
+	@apply w-full;
+	/* display: inline-block; */
+	overflow: hidden;
+	/* white-space: nowrap; */
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	/* word-break: break-all;
+	overflow-wrap: anywhere; */
+	/* text-overflow: clip; */
+}
+
+div.thin_table div.td {
+	padding: 0 1rem 0 1rem;
+}

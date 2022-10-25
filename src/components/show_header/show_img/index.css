@@ -1,0 +1,15 @@
+div.show_img_container {
+	@apply rounded-md;
+	@apply mr-4;
+	overflow: hidden;
+
+	flex-shrink: 0;
+}
+
+div.show_img_container img {
+	@apply w-48;
+	@apply h-48;
+	/* max-width: 12rem; */
+	/* min-height: 12rem; */
+	@apply select-none;
+}

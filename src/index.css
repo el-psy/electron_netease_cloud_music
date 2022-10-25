@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+	@apply flex;
+	@apply flex-col;
+}
+
+html, body, div#root {
+	min-height: 100vh;
+}
+
+body {
+	@apply bg-gradient-to-r;
+	@apply from-blue-50;
+	@apply to-pink-50;
+}
+
+main {
+	background-color: transparent;
+	@apply w-full;
+	flex-shrink: 1;
+}
+
+::selection {
+	@apply bg-blue-400;
+	@apply text-pink-400;
+}
+

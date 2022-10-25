@@ -1,0 +1,13 @@
+div.img_container {
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+}
+
+div.search_album div.table_1 {
+	width: 60%;
+}
+
+div.search_album div.table_2 {
+	width: 40%;
+}

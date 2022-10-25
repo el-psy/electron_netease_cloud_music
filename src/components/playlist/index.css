@@ -1,0 +1,33 @@
+img.playlist_img {
+	@apply rounded-md;
+	overflow: hidden;
+}
+
+p.playlist_name {
+	@apply font-thin;
+	@apply bg-gradient-to-r;
+	@apply from-blue-600;
+	@apply to-pink-600;
+	@apply bg-clip-text;
+	@apply text-transparent;
+	@apply select-none;
+	font-size: 0.875rem;
+}
+
+div.playlist_square div.svg_container {
+	@apply rounded-full;
+	@apply text-transparent;
+	@apply absolute;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+	bottom: 5%;
+	right: 5%;
+	z-index: 1;
+}
+
+div.playlist_square:hover div.svg_container {
+	@apply text-pink-400;
+	@apply bg-blue-400;
+	@apply bg-opacity-50;
+}

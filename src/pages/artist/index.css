@@ -1,0 +1,59 @@
+div.album_tab_select_container, div.album_tab_container {
+	@apply m-4;
+}
+
+div.album_tab_select_container button {
+	@apply font-thin;
+	@apply bg-gradient-to-r;
+	@apply from-pink-600;
+	@apply to-blue-600;
+	@apply bg-clip-text;
+	@apply text-transparent;
+	@apply mr-4;
+	@apply select-none;
+}
+
+div.hot_song_table div.table_row_container {
+	@apply flex;
+	@apply flex-row;
+	@apply flex-1;
+}
+
+div.album_tab_container div.table_index {
+	@apply w-12;
+}
+
+div.album_tab_container div.table_3 {
+	@apply w-24;
+}
+
+div.hot_song_table div.table_row_container div.table_1 {
+	width: 60%;
+}
+
+div.hot_song_table div.table_row_container div.table_2 {
+	width: 40%;
+}
+
+div.albums_grid {
+	@apply grid;
+	@apply grid-cols-5;
+	@apply gap-8;
+}
+
+div.albums_grid div.img_container {
+	@apply rounded-md;
+	@apply overflow-hidden;
+}
+
+div.albums_grid div.album_name {
+	@apply font-thin;
+	@apply text-base;
+	@apply bg-gradient-to-r;
+	@apply from-pink-600;
+	@apply to-blue-600;
+	@apply bg-clip-text;
+	@apply text-transparent;
+	@apply mr-4;
+	@apply select-none;
+}

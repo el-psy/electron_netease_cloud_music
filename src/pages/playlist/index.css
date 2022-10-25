@@ -1,0 +1,30 @@
+div.playlist_table {
+	@apply m-4;
+	/* @apply w-full; */
+}
+
+div.playlist_table div.table_index p {
+	@apply w-16;
+}
+
+div.playlist_table div.table_4 p {
+	@apply w-20;
+}
+
+div.playlist_table div.table_row_container {
+	@apply flex;
+	@apply flex-row;
+	@apply flex-1;
+}
+
+div.playlist_table div.table_row_container div.table_1 {
+	width: 50%;
+}
+
+div.playlist_table div.table_row_container div.table_2 {
+	width: 20%;
+}
+
+div.playlist_table div.table_row_container div.table_3 {
+	width: 30%;
+}

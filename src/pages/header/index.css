@@ -1,0 +1,47 @@
+header.header {
+	border-bottom: 3px #F87171 solid;
+	/* @apply bg-gradient-to-r;
+	@apply from-blue-100;
+	@apply to-pink-100; */
+	background-color: transparent;
+}
+
+header.header div.icon {
+	/* @apply font-thin; */
+	@apply mx-4;
+	@apply bg-gradient-to-r;
+	@apply from-blue-400;
+	@apply to-pink-400;
+	@apply bg-clip-text;
+	@apply text-transparent;
+	@apply select-none;
+}
+
+header.header div.history_container {
+	@apply mx-4;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+}
+
+header.header div.history_container button {
+	@apply mx-4;
+	@apply select-none;
+	cursor: pointer;
+}
+
+header.header div.history_container button.pre {
+	@apply text-blue-400;
+}
+
+header.header div.history_container button.pre:hover {
+	@apply text-blue-600;
+}
+
+header.header div.history_container button.next {
+	@apply text-pink-400;
+}
+
+header.header div.history_container button.next:hover {
+	@apply text-pink-600;
+}

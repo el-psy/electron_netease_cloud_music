@@ -1,0 +1,27 @@
+
+div.tab div{
+	margin-right: auto;
+	@apply bg-gradient-to-r;
+	@apply from-blue-500;
+	@apply to-pink-500;
+	@apply bg-clip-text;
+	color: rgba(1,1,1,0.5);
+}
+
+div.main_container div.tab button {
+	@apply inline-block;
+	@apply m-2;
+	/* @apply text-transparent; */
+	@apply font-thin;
+	@apply text-sm;
+	/* @apply relative; */
+	@apply select-none;
+}
+
+div.main_container div.tab button.chosed {
+	color: rgba(1,1,1,0);
+}
+
+div.main_container table {
+	@apply w-full;
+}

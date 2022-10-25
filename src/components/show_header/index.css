@@ -1,0 +1,5 @@
+div.show_header {
+	@apply m-4;
+	@apply flex;
+	@apply flex-row;
+}

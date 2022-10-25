@@ -1,0 +1,43 @@
+div.show_ul_container {
+	@apply flex;
+	@apply flex-col;
+	justify-content: space-between;
+}
+
+div.show_ul_container h1, div.show_ul_container li {
+	@apply bg-gradient-to-r;
+	@apply from-blue-400;
+	@apply to-pink-400;
+	@apply bg-clip-text;
+	@apply text-transparent;
+	@apply select-none;
+}
+
+div.show_ul_container h1.title {
+	@apply font-semibold;
+	@apply text-2xl;
+	@apply mb-4;
+}
+
+div.show_ul_container ul.single {
+	@apply mb-4;
+}
+
+div.show_ul_container ul.pair {
+	@apply font-thin;
+	@apply text-sm;
+
+	@apply bg-gradient-to-r;
+	@apply from-blue-600;
+	@apply to-pink-600;
+	@apply bg-clip-text;
+	@apply text-transparent;
+}
+
+div.show_ul_container ul.pair li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}

@@ -1,0 +1,43 @@
+div.wide_table {
+	@apply font-thin;
+	font-size: 0.9rem;
+	@apply select-none;
+}
+
+div.wide_table img {
+	@apply w-24;
+	@apply max-h-24;
+	@apply rounded-md;
+}
+
+div.text {
+	@apply flex;
+	@apply items-center;
+}
+
+div.wide_table div.table_row {
+	@apply flex;
+	@apply flex-row;
+	@apply h-28;
+}
+
+div.wide_table div.table_row:nth-child(2n){
+	@apply bg-pink-200;
+}
+
+div.wide_table div.table_row:nth-child(2n):hover {
+	@apply bg-pink-300;
+}
+
+div.wide_table div.table_row:nth-child(2n+1){
+	@apply bg-blue-200;
+}
+
+div.wide_table div.table_row:nth-child(2n+1):hover{
+	@apply bg-blue-300;
+}
+
+div.wide_table div.td {
+	padding: 0 1rem 0 1rem;
+	box-sizing: border-box;
+}

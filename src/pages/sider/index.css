@@ -1,0 +1,6 @@
+aside.sider {
+	min-width: 240px;
+	resize: horizontal;
+	border-right: 2px rgb(177, 177, 177) solid;
+	background-color: transparent;
+}

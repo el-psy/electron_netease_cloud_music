@@ -1,0 +1,28 @@
+div.main_container {
+	@apply mx-24;
+	@apply my-4;
+	/* border: 1px black solid; */
+}
+
+div.main_container div.playlist_container {
+	@apply grid;
+	@apply grid-cols-5;
+	@apply gap-4;
+	@apply my-4;
+}
+
+div.main_container div.home_tab {
+	@apply my-4;
+	@apply space-x-4;
+	@apply text-gray-300;
+}
+
+div.main_container div.home_tab button {
+	@apply space-x-4;
+	@apply font-thin;
+}
+
+div.main_container div.home_tab button:hover {
+	@apply text-white;
+	
+}

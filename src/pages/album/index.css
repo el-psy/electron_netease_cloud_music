@@ -1,0 +1,51 @@
+div.album_table {
+	@apply m-4;
+}
+
+div.album_table div.table_index {
+	@apply w-12;
+}
+
+
+div.album_table div.table_row_container {
+	@apply flex;
+	@apply flex-row;
+	@apply flex-1;
+}
+
+div.album_table div.table_row_container div.table_1 {
+	width: 50%;
+}
+
+div.album_table div.table_row_container div.table_2 {
+	width: 30%;
+}
+
+div.album_table div.table_row_container div.table_3 {
+	width: 20%;
+}
+
+div.album_table div.table_4 {
+	@apply w-24;
+}
+
+div.album_table div.table_5 {
+	@apply w-28;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+}
+
+
+div.pop {
+	@apply h-2;
+	@apply rounded-full;
+	@apply w-24;
+	@apply bg-blue-400;
+}
+
+div.pop div {
+	@apply h-2;
+	@apply rounded-full;
+	@apply bg-pink-400;
+}

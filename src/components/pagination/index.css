@@ -1,0 +1,33 @@
+.pagination_container {
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+}
+
+.square {
+	@apply w-8;
+	@apply h-8;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+	@apply text-pink-800;
+	@apply m-1;
+	@apply rounded-md;
+	@apply font-thin;
+	border-width: 1px;
+	@apply border-solid;
+	@apply border-blue-800;
+	/* border: 1px solid black; */
+	user-select: none;
+}
+
+.square:hover {
+	@apply border-blue-500;
+	@apply text-pink-500;
+}
+
+.square.disabled {
+	@apply border-gray-800;
+	@apply text-gray-800;
+	@apply bg-gray-300;
+}

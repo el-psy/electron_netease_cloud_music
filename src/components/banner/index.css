@@ -1,0 +1,237 @@
+div.banner img {
+	@apply rounded-md;
+	width: 420px;
+	position: absolute;
+	user-select: none;
+	/* transform: scale(80%); */
+}
+
+@keyframes center_left {
+	0% {
+		transform: translateX(-50%) scale(100%);
+		left: 50%;
+		z-index: 2;
+	}
+	50% {
+		transform: translateX(-25%) scale(90%);
+		left: 25%;
+		z-index: 2;
+	}
+	100% {
+		transform: scale(90%);
+		left: 0;
+		z-index: 1;
+	}
+}
+
+@keyframes center_right {
+	0% {
+		transform: translateX(50%) scale(100%);
+		right: 50%;
+		z-index: 2;
+	}
+	50% {
+		transform: translateX(25%) scale(90%);
+		right: 25%;
+		z-index: 2;
+	}
+	100% {
+		transform: scale(90%);
+		right: 0;
+		z-index: 1;
+	}
+}
+
+@keyframes left_center {
+	0% {
+		transform: scale(90%);
+		left: 0;
+		z-index: 1;
+	}
+	50% {
+		transform: translateX(-25%) scale(90%);
+		left: 25%;
+		z-index: 2;
+	}
+	100% {
+		transform: translateX(-50%) scale(100%);
+		left: 50%;
+		z-index: 2;
+	}
+}
+
+@keyframes right_center {
+	0%{
+		transform: scale(90%);
+		right: 0;
+		z-index: 1;
+	}
+	50%{
+		transform: translateX(25%) scale(90%);
+		right: 25%;
+		z-index: 2;
+	}
+	100%{
+		transform: translateX(50%) scale(100%);
+		right: 50%;
+		z-index: 2;
+	}
+}
+
+@keyframes left_back {
+	0% {
+		transform: scale(90%);
+		left: 0;
+		z-index: 1;
+	}
+	50% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 1;
+	}
+	100% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 0;
+	}
+}
+
+@keyframes right_back {
+	0% {
+		transform: scale(90%);
+		right: 0;
+		z-index: 1;
+	}
+	50% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 1;
+	}
+	100% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 0;
+	}
+}
+
+@keyframes back_left {
+	0% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 0;
+	}
+	50% {
+		transform: translateX(-50%) scale(80%);
+		left: 50%;
+		z-index: 1;
+	}
+	100% {
+		transform: scale(90%);
+		left: 0;
+		z-index: 1;
+	}
+}
+
+@keyframes back_right {
+	0% {
+		transform: translateX(50%) scale(80%);
+		right: 50%;
+		z-index: 0;
+	}
+	50% {
+		transform: translateX(25%) scale(80%);
+		right: 25%;
+		z-index: 0;
+	}
+	100% {
+		transform: scale(90%);
+		right: 0;
+		z-index: 1;
+	}
+}
+
+div.banner img.center_left {
+	animation: center_left 0.3s ease-in-out forwards;
+}
+
+div.banner img.center_right {
+	animation: center_right 0.3s ease-in-out forwards;
+}
+
+div.banner img.left_center {
+	animation: left_center 0.3s ease-in-out forwards;
+}
+
+div.banner img.right_center {
+	animation: right_center 0.3s ease-in-out forwards;
+}
+
+div.banner img.back_left {
+	animation: back_left 0.3s ease-in-out forwards;
+}
+
+div.banner img.back_right {
+	animation: back_right 0.3s ease-in-out forwards;
+}
+
+div.banner img.left_back {
+	animation: left_back 0.3s ease-in-out forwards;
+}
+
+div.banner img.right_back {
+	animation: right_back 0.3s ease-in-out forwards;
+}
+
+div.banner img.banner_center {
+	transform: translateX(-50%) scale(100%);
+	left: 50%;
+	z-index: 2;
+}
+
+div.banner img.banner_back {
+	transform: translateX(-50%) scale(80%);
+	left: 50%;
+	z-index: 0;
+}
+
+div.banner img.banner_left {
+	transform: scale(90%);
+	left: 0;
+	z-index: 1;
+}
+
+div.banner img.banner_right {
+	transform: scale(90%);
+	right: 0;
+	z-index: 1;
+}
+
+div.banner button.button_left, div.banner button.button_right {
+	position: absolute;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.4);
+	width: 1.5rem;
+	height: 1.5rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(1, 1, 1, 0.5);
+}
+
+div.banner:hover button.button_left, div.banner:hover button.button_right {
+	color: white;
+}
+
+div.banner button.button_left {
+	left: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 3;
+}
+
+div.banner button.button_right {
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 3;
+}

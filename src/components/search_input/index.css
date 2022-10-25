@@ -1,0 +1,37 @@
+.search-container {
+	@apply relative;
+	@apply h-6;
+	@apply text-blue-400;
+}
+
+/* .search-container .search-icon, .search_container .icon-contaier {
+	@apply inline-block;
+} */
+
+.search-container .icon-container {
+	@apply absolute;
+	@apply w-6;
+	@apply h-6;
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+}
+
+.search-container .search-input {
+	@apply outline-none;
+	@apply border-none;	
+	@apply bg-blue-100;
+	@apply text-sm;
+	@apply text-blue-400;
+	@apply h-6;
+	@apply px-6;
+	@apply w-48;
+	@apply rounded-full;
+}
+
+.search-container .search-input:focus {
+	@apply bg-pink-100;
+	border-width: 1px;
+	@apply border-blue-300;
+	@apply border-solid;
+}

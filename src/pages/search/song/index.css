@@ -1,0 +1,68 @@
+/* .search_song {
+	@apply text-sm;
+	@apply font-thin;
+	@apply text-gray-300;
+	overflow: hidden;
+}
+
+.search_song td {
+	@apply h-10;
+	overflow: hidden;
+	white-space: no-wrap;
+	text-overflow: ellipsis;
+}
+
+.search_song tr {
+	padding: 1rem;
+	/* background-color: ; */
+/* } */
+
+div.search_song {
+	
+}
+
+div.search_song div.table_index span {
+	@apply w-5;
+}
+
+div.pop_container {
+	@apply flex;
+	@apply items-center;
+	@apply justify-center;
+	@apply w-28;
+}
+
+div.table_4 {
+	@apply w-28;
+}
+
+div.pop {
+	@apply h-2;
+	@apply rounded-full;
+	@apply w-24;
+	@apply bg-blue-400;
+}
+
+div.pop div {
+	@apply h-2;
+	@apply rounded-full;
+	@apply bg-pink-400;
+}
+
+div.table_row_container {
+	@apply flex;
+	@apply flex-row;
+	flex: 1 1 0;
+}
+
+div.search_song div.table_1 {
+	width: 50%;
+}
+
+div.search_song div.table_2 {
+	width: 20%;
+}
+
+div.search_song div.table_3 {
+	width: 30%;
+}
